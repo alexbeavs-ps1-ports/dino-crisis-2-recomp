@@ -5,6 +5,8 @@ id = "SLUS-01279"
 players = 1
 exe = "disc/SLUS_012.79"
 disc = "disc/Dino Crisis 2 (USA).cue"
+discs = ["disc/Dino Crisis 2 (USA).cue"]
+disc_serials = ["SLUS-01279"]
 load_address = "0x80018000"
 entry_pc = "0x8001B3B8"
 text_size = "0x00090000"
@@ -21,7 +23,7 @@ known_sha1 = ["f7c71427c4c8726c9114514746c42f10928fbaee", "8c4214caa6744a2b248af
 known_crc32 = ["47435b81", "cb99fb35"]
 
 [recompiler]
-bios_config = "psxrecomp/bios/SCPH5552.toml"
+bios_config = "psxrecomp/bios/SCPH1001.toml"
 seeds = "seeds/ghidra_funcs.txt"
 out_dir = "generated"
 strict = true
